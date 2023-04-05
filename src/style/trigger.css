@@ -1,0 +1,18 @@
+.trigger {
+  background: url(../img/fon5-min.png) no-repeat center / cover;
+  padding: 314px 0 407px;
+}
+
+.trigger__content {
+  margin-left: 58px;
+}
+
+.trigger__title {
+  max-width: 673px;;
+}
+
+@media (max-width: 1279px) {
+  .trigger {
+  padding: 214px 0 267px;
+  }
+}

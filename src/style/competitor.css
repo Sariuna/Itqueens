@@ -1,0 +1,68 @@
+.competitors {
+  background: url(../img/fon4-min.png) no-repeat center / cover;
+  padding: 152px 0 188px;
+}
+
+.competitor__content {
+  margin-left: auto;
+  max-width: 696px;
+  text-align: center;
+}
+
+.competitor__title {
+  margin-bottom: 33px;
+}
+
+.competitor__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  max-width: 600px;
+}
+
+.competitor__list li:nth-child(3) {
+  margin-left: 85px;
+}
+
+.competitor__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 226px;
+  padding: 14px 30px;
+  border-radius: 100px;
+  border: 1px solid #CCB184;
+}
+
+.competitor__list-item a {
+  text-decoration: none;
+  color: #5B5B5B;
+}
+
+.competitor__list-item a:hover {
+  color: #EDDAB4;
+}
+
+@media (max-width: 1450px)  {
+  .competitor__list li:nth-child(3) {
+  margin-left: 50px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .competitor__list {
+  max-width: 450px;
+  margin: 0 auto;
+  }
+  .competitor__list-item {
+  width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .competitor__list li:nth-child(3) {
+  margin-left: 0px;
+  } 
+}
+

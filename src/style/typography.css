@@ -1,0 +1,147 @@
+body {
+  font-family: "Rubik";
+}
+
+.h2 {
+  font-family: "Rubik";
+  font-size: 74px;
+  font-weight: 500;
+  line-height: 88px;
+  color: transparent;    
+	-webkit-background-clip: text;
+  background-clip: text;
+  background-image: radial-gradient(59.72% 6060.19% at 50% 50%, #9A9A9A 0%, #3D3D3D 100%);
+}
+ 
+.white {
+  color: transparent;    
+	-webkit-background-clip: text;
+  background-clip: text;
+  background-image: radial-gradient(59.72% 6060.19% at 50% 50%, #FFFFFF 0%, #B6B6B6 100%);
+}
+
+.gold {
+  display: block;
+  font-family: "Adventure";
+  font-weight: 400;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image:radial-gradient(71.5% 6634.94% at 50% 50%, #F0D08E 0%, #EDDAB4 0.01%, #B69A6C 100%);
+}
+
+.gold-small {
+  font-size: 80px;
+}
+
+.gold-medium {
+  font-size: 100px;
+}
+
+.gold-large {
+  font-size: 110px;
+}
+
+.item {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+}
+
+@media (max-width: 1450px) {
+  .h2 {
+    font-size: 60px;
+  }
+  .gold {
+    font-size: 70px;
+  }
+  .gold-small {
+    font-size: 70px;
+  }
+  .gold-medium {
+    font-size: 90px;
+  }
+  .gold-large {
+    font-size: 100px;
+  }
+}
+@media (max-width: 1279px) {
+  .h2 {
+    font-size: 50px;
+  }
+  .gold {
+    font-size: 60px;
+  }
+  .gold-small {
+    font-size: 70px;
+  }
+  .gold-medium {
+    font-size: 80px;
+  }
+  .gold-large {
+    font-size: 90px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .h2 {
+    font-size: 40px;
+  }
+  .gold {
+    font-size: 50px;
+  }
+  .gold-small {
+    font-size: 50px;
+  }
+  .gold-medium {
+    font-size: 70px;
+  }
+  .gold-large {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .h2 {
+    font-size: 35px;
+  }
+  .gold {
+    font-size: 45px;
+  }
+  .gold-small {
+    font-size: 50px;
+  }
+  .gold-medium {
+    font-size: 60px;
+  }
+  .gold-large {
+    font-size: 70px;
+  }
+}
+
+@font-face {
+  font-family: "Adventure";  
+  src: url("../fonts/Adventure\ Regular.woff") format("woff"); 
+  font-style: "regular"; 
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Rubik";  
+  src: url("../fonts/Rubik-Medium.woff") format("woff"); 
+  font-style: medium; 
+  font-weight: 500;
+}
+   
+@font-face{
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Regular.woff") format("woff");
+  font-style: "regular"; 
+  font-weight: 400; 
+}
+
+  

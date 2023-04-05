@@ -1,0 +1,30 @@
+.strategy {
+  background: url(../img/fon2-min.png) no-repeat center / cover;
+  padding: 178px 0 308px;
+}
+
+.strategy__content {
+  margin-left: auto;
+  max-width: 766px;
+}
+
+.strategy__list {
+  margin-top: 30px;
+}
+
+.strategy__list_item {
+  margin-bottom: 31px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+@media (max-width: 1279px) {
+  .strategy__content {
+  text-align: center;
+  margin-left: 0;
+}
+}
+
+
